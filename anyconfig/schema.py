@@ -97,7 +97,7 @@ def validate(data, schema, ac_schema_safe=True, ac_schema_errors=False,
 
     See also: https://python-jsonschema.readthedocs.org/en/latest/validate/
 
-    :parae data: Target object (a dict or a dict-like object) to validate
+    :param data: Target object (a dict or a dict-like object) to validate
     :param schema: Schema object (a dict or a dict-like object)
         instantiated from schema JSON file or schema JSON string
     :param options: Other keyword options such as:
